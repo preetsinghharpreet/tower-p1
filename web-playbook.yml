@@ -15,7 +15,7 @@
       service: 
          name: "{{ item }}"
          state: started
-         enabeld: true
+         enabled: true
       loop: 
         - httpd
         - firewalld
